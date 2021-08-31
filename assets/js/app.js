@@ -3,7 +3,7 @@ const leftBtn = document.getElementById("left-btn");
 const rightBtn = document.getElementById("right-btn");
 const infoBtn = document.getElementById("info-btn");
 
-infoMsg = "How to Use? 🤓 <br><br> 1. Tap anywhere on screen or hit [spacebar] to see generate a fresh color. <br><br> 2. Tap on color code box or hit [Ctrl+C] to copy color code. <br><br> 3. Tap on left button or [left arrow key] to go back. <br><br> 4. Tap on right button or [right arrow key] to go forward. <br><br> Developed by <a href='https://www.linkedin.com/in/dasaradhsk/'>Dasaradh S K</a>";
+infoMsg = "How to Use? 🤓 <br><br> 1. Tap anywhere on screen or hit [spacebar] to see generate a fresh color. <br><br> 2. Tap on color code box or hit [Ctrl+C] to copy color code. <br><br> 3. Tap on left button or [left arrow key] to go back. <br><br> 4. Tap on right button or [right arrow key] to go forward. <br><br> Developed by <a href='https://www.linkedin.com/in/dasaradhsk/' target='_blank'>Dasaradh S K</a> | Project Sourcecode <a href='https://github.com/dsrdh/fresh-colors' target='_blank'>(Github)</a>";
 
 const hex = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'];
 let clr, stkUndo = [], stkRedo = [];

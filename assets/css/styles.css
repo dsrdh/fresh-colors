@@ -7,6 +7,7 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
+    font-style: italic;
 }
 
 header {
@@ -43,7 +44,7 @@ header {
 #clr-label {
     text-align: center;
     font-size: large;
-    font-weight: bold;
+    font-weight: 200;
     cursor: copy;
     letter-spacing: 0.1rem;
     padding: 0.7rem 1.4rem;
@@ -58,11 +59,12 @@ header {
     font-size: large;
     border: none;
     border-radius: 50%;
+    padding: 0;
     height: 2rem;
     width: 2rem;
     background-color: #f8f8ff;
     color: #1f1e1e;
-    box-shadow: 0px 0px 8px #f8f8ff;
+    box-shadow: 0px 0px 10px #f8f8ff;
 }
 
 @media only screen and (max-width:600px) {
